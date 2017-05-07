@@ -1,16 +1,16 @@
-
-screen 0,150,45,8+4,0,0
+screen 0,143,42,8+4,0,0
+gsel 0,2
 title"ê›íË"
 objsize 45,20
-pos 0,0
+pos 2,0
 button"âÊê›íË",*kaizoudo
 button"âπê›íË",*otosettei
 pos 48,20
 button"âπó ",*onryou
 pos 96,20
-button"âπ",*ototest
-pos 48,0
-mes ""+ginfo(20)+"x"+ginfo(21)
+button"(( ÅÙ ))",*ototest
+pos 50,0
+mes ""+ginfo(20)+" x "+ginfo(21)
 stop
 
 *kaizoudo
